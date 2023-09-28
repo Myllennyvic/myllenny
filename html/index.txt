@@ -1,0 +1,84 @@
+documento marcado, se usa tags "<>"
+<html>
+</html>
+
+<head> - define o cabeçalho do documento
+
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body> -- tudo que o usuário esta vendo 
+  </body>
+</html>
+
+* tags de título *
+h1 até h6 
+do maior para o menor dele diminuem o tamanho 
+
+*tags paragrafo*
+<p> bla, bla <p>
+
+*comentário*
+<!-->
+
+*tags tirar linha*
+<br>
+ <br>  <br> - quebra linha duas vezes 
+
+ *quebra de seção*
+ <hr> - cria linha horizontais
+
+ *texto negrito*
+ <p>texto em <strong>negrito</strong><p>
+ strong - deixa em negrito 
+
+ <strong>palavra</strong>
+
+ *texto itálico*
+ <p>texto em <em>itálico</em><p>
+ em - deixa em itálico
+ <em>palavra</em>
+
+ *texto sublinhado*
+ <p>texto em <u>sublinhado</u><p>
+ u - deixa sublinhado
+ <u>palavra</u>
+
+ texto sobreescrito 
+ <sub>palavra</sub>
+
+ texto subescrito
+ <small>palavra</small>
+ deixa texto pequeno
+
+ texto destacado
+ <mack>palavra</mack>
+ deixa texto destacado
+
+ <img src= "./nomepasta/imagem">
+
+ lista ordena (tem números)
+ <ol type="1 APARECE NÚMEROS (1,2,3), A APARECE LETRAS EM CAIXA ALTA (A,B,C), a APARECE LETRAS EM CAIXA BAIXA (a,b,c), I(numeros romanos)">
+   <li>escreve</li>
+ </ol>
+ lista não ordenada
+ <ul type="circle aparece so as bordas; square - aparece quadrado; disc - discos ">
+ <li>escrever<li>
+ </ul>
+
+ border="" - coloca bordas
+ colspan ="2" - expandir a coluna
+ rowspan ="2" - expansir a linha
+ nunca vai invandir o footer ou o thearder 
+ textarea
+
+ hidden - esta escondido, usa para coisas sensiveis(senhas, id, e etc)
+ disabled - desabilita o campo 
+ cols - quantidade de colunas (25)
+ rows - linhas (5)
+ required - validação 
+
+ action="" - para onde vou mandar , usa mailto: email, para mandar email 
+ get - todas as informações do formulário vai ser passado meu url do navegador,
+ method - de que maneira irei mander
